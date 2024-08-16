@@ -22,6 +22,11 @@ public class SimpleCalculator {
     */
     public static void main(String[] args) {
 
+        /*
+         **Object Creation**: The new keyword is used to create an instance of a class. Here, calci is an object of the SimpleCalculator class. This object can now be used to
+         call methods defined within the class.
+         **Object**: 
+         */
         SimpleCalculator calci = new SimpleCalculator();
         String result = calci.add(1,2);
         calci.displayResult(result);
