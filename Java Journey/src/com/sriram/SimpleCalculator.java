@@ -5,7 +5,19 @@ package com.sriram;
 public class SimpleCalculator {
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
+
+        SimpleCalculator calci = new SimpleCalculator();
+        String result = calci.add(1,2);
+        calci.displayResult(result);
+
+    }
+
+    String add(float num1, float num2){
+        return (num1 + num2).toString();
+    }
+
+    void displayResult(String res){
+        System.out.println(res);
     }
 
 }
