@@ -9,12 +9,17 @@ package com.sriram;
 
 /*
  **Class**: A class is a blueprint for creating objects (a particuler data structure), providing initial values for state (member variables or attributes), and
- implementations of behavior (methods). The public keyword specifies that this class is accessible everywhere. The class name SimpleCalculator suggests its purpose—to
- perform basic arithmetic operations.
+ implementations of behavior (methods).
+ **Access Modifier**: The public keyword specifies that this class is accessible everywhere.
+ **Class Naming**: The class name SimpleCalculator suggests its purpose—to perform basic arithmetic operations.
  */
-
 public class SimpleCalculator {
 
+    /*
+     **Main Method**: The main method is the entry point for any Java application. When you run your program, the Java Virtual Machine (JVM) searches for the main method
+       and starts executing from there. The static keyword indicates that the method belongs to the SimpleCalculator class itself, rather than to instances of the class. The
+       void keyword signifies that this method doesn't return any value. The String[] args parameter allows command-line arguments to be passed to the program.
+    */
     public static void main(String[] args) {
 
         SimpleCalculator calci = new SimpleCalculator();
