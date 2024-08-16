@@ -1,7 +1,18 @@
+//  Simple Calculator - To explore the Java Basics and Syntax
+
 /*
- * Simple Calculator - To explore the Java Basics and Syntax
+ ***Package**: In Java, a package is a namespace that organizes a set of related classes and interfaces. Conceptually you can think of packages as being similar to different
+ folders on your computer. They help keep classes with the same name separate and organized. The com.sriram part is known as the package name, which typically follows the
+ reverse domain name convention to ensure uniqueness across projects.
  */
 package com.sriram;
+
+/*
+ **Class**: A class is a blueprint for creating objects (a particuler data structure), providing initial values for state (member variables or attributes), and
+ implementations of behavior (methods). The public keyword specifies that this class is accessible everywhere. The class name SimpleCalculator suggests its purpose—to
+ perform basic arithmetic operations.
+ */
+
 public class SimpleCalculator {
 
     public static void main(String[] args) {
