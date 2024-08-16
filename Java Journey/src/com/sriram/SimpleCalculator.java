@@ -23,9 +23,9 @@ public class SimpleCalculator {
     public static void main(String[] args) {
 
         /*
-         **Object Creation**: The new keyword is used to create an instance of a class. Here, calci is an object of the SimpleCalculator class. This object can now be used to
+         **Object Creation**: The new keyword is used to create an instance of a class(memory allocation). Here, calci is an object of the SimpleCalculator class. This object can now be used to
          call methods defined within the class.
-         **Object**: 
+         **Object**: a real-time entity that represents a class. It encapsulates both state and behavior, making it a fundamental concept in OOP.
          */
         SimpleCalculator calci = new SimpleCalculator();
         String result = calci.add(1,2);
