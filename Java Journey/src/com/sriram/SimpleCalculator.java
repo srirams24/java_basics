@@ -13,7 +13,7 @@ public class SimpleCalculator {
     }
 
     String add(float num1, float num2){
-        return (num1 + num2).toString();
+        return String.valueOf(num1 + num2);
     }
 
     void displayResult(String res){
